@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <main className="relative w-full h-screen overflow-hidden flex justify-center mb-[10%]">
       <video
-        src={`/${import.meta.env.BASE_URL}Video/hero.mp4`}
+        src={`${import.meta.env.BASE_URL}Video/hero.mp4`}
         autoPlay
         loop
         muted
@@ -13,7 +13,7 @@ const Hero = () => {
       ></video>
       <div className="absolute bottom-[15%] flex flex-col items-center gap-5">
         <img
-          src={`/${import.meta.env.BASE_URL}Images/illu-text.png`}
+          src={`${import.meta.env.BASE_URL}Images/illu-text.png`}
           alt="illu-text"
           className="md:w-[30rem] w-[20rem]"
         />
@@ -28,7 +28,7 @@ const Hero = () => {
           PLAY NOW
         </button>
         <div className="flex items-center gap-5 text-3xl font-extrabold text-gray-200 ">
-          <img className="md:h-16 h-12 " src={`/${import.meta.env.BASE_URL}Images/illu-logo.png`} alt="" />
+          <img className="md:h-16 h-12 " src={`${import.meta.env.BASE_URL}Images/illu-logo.png`} alt="" />
           ZERO
         </div>
         <p className="max-w-[80%] text-center text-[#babaff]">

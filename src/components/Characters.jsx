@@ -183,7 +183,7 @@ const Characters = () => {
 
               {/* Avatar visual placeholder */}
               <div className="w-20 h-20 bg-gray-800/50 rounded-md flex items-center justify-center mb-2">
-                <img src={`/${import.meta.env.BASE_URL}Images/VIKI.png`} alt="VIKI-IMG" />
+                <img src={`${import.meta.env.BASE_URL}Images/VIKI.png`} alt="VIKI-IMG" />
               </div>
               {/* Star rating */}
               <div className="flex ">
@@ -209,7 +209,7 @@ const Characters = () => {
 
               {/* Avatar visual placeholder */}
               <div className="w-20 h-20 bg-gray-800/50 rounded-md flex items-center justify-center mb-2">
-                <img src={`/${import.meta.env.BASE_URL}Images/EVA.png`} alt="EVA-IMG" />
+                <img src={`${import.meta.env.BASE_URL}Images/EVA.png`} alt="EVA-IMG" />
               </div>
               {/* Star rating */}
               <div className="flex ">
