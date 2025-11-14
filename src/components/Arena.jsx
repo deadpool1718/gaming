@@ -30,10 +30,8 @@ const Arena = () => {
           >
             {/* // Card background with gradient */}
 
-              <div className="absolute h-full w-full">
-                <img src={`${import.meta.env.BASE_URL}Images/bento-card1.png`} alt="card-1" />
-
-                <button className="absolute bottom-0 h-16  w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all text-nowrap">
+            <div className="absolute h-full w-full">
+              <img src={`/${import.meta.env.BASE_URL}Images/bento-card1.png`} alt="card-1" />                <button className="absolute bottom-0 h-16  w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all text-nowrap">
                   <i className=" bx bx-store-alt"></i>NFT STORE
                 </button>
               </div>
@@ -50,7 +48,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src={`${import.meta.env.BASE_URL}Video/bento-card2.mp4`}
+                src={`/${import.meta.env.BASE_URL}Video/bento-card2.mp4`}
             ></video>
           </div>
         </div>
@@ -69,7 +67,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src={`${import.meta.env.BASE_URL}Video/bento-card3.mp4`}
+                src={`/${import.meta.env.BASE_URL}Video/bento-card3.mp4`}
               ></video>
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
                 Scoriox
@@ -84,7 +82,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src={`${import.meta.env.BASE_URL}Video/bento-card4.mp4`}
+                src={`/${import.meta.env.BASE_URL}Video/bento-card4.mp4`}
               ></video>
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
                 Floralynx
@@ -98,7 +96,7 @@ const Arena = () => {
                 loop
                 muted
                 playsInline
-                src={`${import.meta.env.BASE_URL}Video/bento-card5.mp4`}
+                src={`/${import.meta.env.BASE_URL}Video/bento-card5.mp4`}
               ></video>
               <h1 className="absolute bottom-2 left-1/2 transform -translate-x-1/2 z-10 font-extrabold text-2xl">
                 Titonar
@@ -108,7 +106,7 @@ const Arena = () => {
           {/* Card-6 - Bottom large card */}
 
           <div className="relative overflow-hidden rounded-3xl border border-white aspect-[16/9] md:col-span-2 transform transition-transform duration-300 hover:scale-[1.02]">
-            <img src={`${import.meta.env.BASE_URL}Images/bento-card5.png`} alt="card-6" />
+            <img src={`/${import.meta.env.BASE_URL}Images/bento-card5.png`} alt="card-6" />
 
             <button className="absolute bottom-0 h-16  w-full bg-black bg-opacity-70 text-2xl font-bold hover:text-yellow-400 transition-all text-nowrap">
               <i class="bx bx-link-external"></i>Buy Now
